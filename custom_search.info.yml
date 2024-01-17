@@ -1,0 +1,9 @@
+name: Custom Search
+type: module
+description: Creates custom properties for indexing all content
+dependencies:
+  - drupal:system (>=8.6)
+  - search_api:search_api
+  - search_api_autocomplete
+package: Custom
+core_version_requirement: ^9 || ^10

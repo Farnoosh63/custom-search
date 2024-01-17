@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Urban Search module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
+use Drupal\search_api\Plugin\views\query\SearchApiQuery;
+use Drupal\search_api_autocomplete\Search\SearchPluginDeriverBase;
+use Drupal\search_api_page\SearchApiPageInterface;
+use Drupal\views\ViewEntityInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function urban_search_theme() {
+  $themes['urban_search_autocomplete_suggestion'] = [
+    'variables' => [
+      'keys' => NULL,
+      'url' => NULL,
+      'label' => NULL,
+      'note' => NULL,
+      'results_count' => NULL,
+      'suggestion_prefix' => '',
+      'suggestion_suffix' => '',
+      'user_input' => '',
+    ],
+  ];
+  return $themes;
+}
