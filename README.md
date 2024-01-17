@@ -10,11 +10,11 @@ The Custom Search module is a Drupal extension designed to enhance search functi
 - **Customized Search Suggestions**: Implements logic for search suggestions like URL handling and limiting suggestions. 
 - **Routing Customization**: Utilizes an Event Subscriber to modify existing routes.
 - **Modern Frontend Technologies**:
-    - **Employs Tailwind CSS and Custom Web Components**: The module utilizes Tailwind CSS for styling, providing a responsive and visually appealing user interface. Additionally, it incorporates custom web components, which offer several key advantages:
+    - **Employs Tailwind CSS and Custom Web Components**: The module utilizes Tailwind CSS for styling, providing a responsive and visually appealing user interface. It incorporates custom web components, which offer several key advantages:
         - **Accessibility**: Custom web components are designed with accessibility in mind.
-        - **Consistency**: Using web components helps maintain a consistent look and feel across the site, as these components can be reused in different parts of the application without duplicating code.
-        - **Maintenance**: Web components are modular and encapsulated, making them easier to maintain and update. Changes made to a component are reflected wherever it's used, simplifying the development process.
-        - **SEO**: These custom web components contribute to SEO-friendly markup, aiding in better search engine recognition and indexing.
+        - **Consistency**: Using web components helps maintain a consistent look and feel across the site.
+        - **Maintenance**: Web components are modular and encapsulated, making them easier to maintain and update.
+        - **SEO**: These custom web components contribute to SEO-friendly markup.
         - **Lightweight and Reusable**: These components are lightweight and reusable.
 
 
