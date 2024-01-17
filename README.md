@@ -29,7 +29,7 @@ The Custom Search module is a Drupal extension designed to enhance search functi
 ### 2. RouteSubscriber (Event Subscriber)
 
 - **Path**: `custom_search/src/Routing/RouteSubscriber.php`
-- **Description**: An integral part of the module's routing system. `RouteSubscriber` extends `RouteSubscriberBase` and is used as an Event Subscriber to respond to routing events. 
+- **Description**: `RouteSubscriber` extends `RouteSubscriberBase` and is used as an Event Subscriber to respond to routing events. 
 - **Functionality**:
     - Overrides the `alterRoutes` method to modify the routing table during rebuilds.
     - Changes the controller for the route `search_api_autocomplete.autocomplete` to the custom `CustomSearchController::autocomplete`.
