@@ -20,8 +20,8 @@ use Drupal\views\ViewEntityInterface;
 /**
  * Implements hook_theme().
  */
-function urban_search_theme() {
-  $themes['urban_search_autocomplete_suggestion'] = [
+function custom_search_theme() {
+  $themes['custom_search_autocomplete_suggestion'] = [
     'variables' => [
       'keys' => NULL,
       'url' => NULL,
