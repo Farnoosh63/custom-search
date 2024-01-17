@@ -38,7 +38,7 @@ class Authors extends ProcessorPluginBase {
 
     if (!$datasource) {
       $definition = [
-        'label' => $this->t('Urban Authors'),
+        'label' => $this->t('Authors'),
         'description' => $this->t('Provide Author names based on field_authors.'),
         'type' => 'string',
         'is_list' => TRUE,
