@@ -1,4 +1,4 @@
-# Custom Search Module
+# Custom Search Module:
 
 ## Overview
 
