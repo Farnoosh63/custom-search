@@ -3,4 +3,5 @@ services:
     class: Drupal\custom_search\Routing\RouteSubscriber
     tags:
       - { name: event_subscriber }
+      - { name: github_actions }
 
