@@ -65,6 +65,3 @@ The Custom Search module is a Drupal extension designed to enhance search functi
     - **Automated Indexing**: Automatically extracts and indexes author names.
     - **Flexible and Adaptable**: With `locked = true` and `hidden = true` settings, this processor is universally applied across all data sources without additional setup. This makes it flexible enough to handle various content types and scalable as new data sources are added.
     - **Data Processing**: Processes and formats author names using Drupal's `name.formatter` service, for consistency and accuracy in the indexed data.
-
-
-testing
